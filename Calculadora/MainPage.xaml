@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Border
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 0,0,20,20"
+                BackgroundColor="#404040"
+                >
+                <Label
+                HeightRequest="150"
+                BackgroundColor="#404040"
+                HorizontalOptions="Fill"
+                Padding="5"
+                />
+            </Border>
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+            Padding="5,5,5,5"
+            Spacing="8">
+
+                <Button
+                    x:Name="btnDel"
+                Text="AC"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#DFD0B8"
+                />
+                <Button
+                    x:Name="btnParen"
+                Text="( )" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+                <Button
+                    x:Name="btnPorcem"
+                Text="%" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+                <Button
+                    x:Name="btnDiv"
+                Text="÷" 
+                FontSize="25"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+            Padding="5"
+            Spacing="8">
+
+                <Button
+                    x:Name="btn7"
+                Text="7"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn8"                    
+                Text="8" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn9"                   
+                Text="9" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnMulti"                  
+                Text="X" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+            </HorizontalStackLayout>
+
+
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+            Padding="5"
+            Spacing="8">
+
+                <Button
+                    x:Name="btn4"
+                Text="4"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn5"                  
+                Text="5" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn6"                   
+                Text="6" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnMenos"                  
+                Text="-" 
+                FontSize="25"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+            </HorizontalStackLayout>
+
+
+
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+            Padding="5"
+            Spacing="8">
+
+                <Button
+                    x:Name="btn1"        
+                Text="1"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn2"                   
+                Text="2" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btn3"                   
+                Text="3" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnMais"                   
+                Text="+" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#948979"
+                    
+                />
+            </HorizontalStackLayout>
+
+
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+            Padding="5"
+            Spacing="8">
+
+                <Button
+                    x:Name="btn0"                 
+                Text="0"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnDecimal"                 
+                Text="," 
+                FontSize="26"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnRemove"                    
+                Text="EX"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#3C5B6F"
+                    
+                />
+                <Button
+                    x:Name="btnResult"      
+                    Clicked="btnResult_Clicked" 
+                Text="=" 
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="87"
+                HeightRequest="87"
+                    BackgroundColor="#DFD0B8"
+                    
+                />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
